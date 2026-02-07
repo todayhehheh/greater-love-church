@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 크신사랑교회 (Greater Love Church)
 
-## Getting Started
+**"당신을 향한 가장 큰 사랑, 여기서 시작됩니다."**
 
-First, run the development server:
+크신사랑교회 웹사이트 프로젝트입니다.
+Next.js와 TypeScript, Tailwind CSS로 제작되었습니다.
+
+## 🌟 주요 기능
+- **반응형 디자인**: 모바일과 데스크톱 모두에서 최적화된 화면을 제공합니다.
+- **감성적인 UI**: Framer Motion을 활용한 부드러운 애니메이션과 따뜻한 디자인.
+- **예배 안내**: 예배 시간 및 오시는 길 정보를 제공합니다.
+
+## 🚀 배포 주소
+웹사이트는 아래 링크에서 확인하실 수 있습니다:
+**[크신사랑교회 홈페이지 바로가기](https://todayhehheh.github.io/greater-love-church/)**
+
+## 🛠️ 기술 스택
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS, Pretendard Font
+- **Animation**: Framer Motion
+- **Deployment**: GitHub Pages
+
+## 🏃‍♂️ 로컬 실행 방법
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인하세요.
