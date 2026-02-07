@@ -95,7 +95,7 @@ export default function Home() {
           {/* Dynamic Image: B&W -> Color */}
           <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/pastor.png"
+              src="/greater-love-church/pastor.png"
               alt="Pastor An"
               fill
               className={`object-cover transition-all duration-1000 ease-out ${isMessageInView ? 'grayscale-0 scale-100' : 'grayscale scale-110'}`}
@@ -214,10 +214,27 @@ export default function Home() {
             </div>
 
             <div className="h-full flex flex-col justify-end">
-              <div className="bg-gray-100 rounded-xl h-48 md:h-64 mb-6 flex items-center justify-center text-gray-400">
-                {/* Map Placeholder */}
-                <span className="font-gowun">지도 영역 (Kakao Map)</span>
+              <div className="bg-gray-100 rounded-xl h-48 md:h-64 mb-6 overflow-hidden relative">
+                <iframe
+                  title="Google Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.569477545934!2d127.07340667634638!3d37.64020977202302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9630ee77b7f1%3A0xc665172af0887df5!2z7ISc7JqI7Yq567OE7IucIOuqtOybkOq1rCDrjpnsnbzroZwxNzPqsCA2OQ!5e0!3m2!1sko!2skr!4v1707293000000!5m2!1sko!2skr"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="absolute inset-0"
+                />
               </div>
+              <a
+                href="https://map.naver.com/p/search/크신사랑교회"
+                target="_blank"
+                rel="noreferrer"
+                className="w-full block py-4 bg-[#03C75A] text-white text-center font-bold rounded-xl hover:bg-[#02B150] transition-colors shadow-sm mb-3"
+              >
+                네이버 지도로 보기 📍
+              </a>
               <a
                 href="https://www.google.com/maps/search/?api=1&query=크신사랑교회"
                 target="_blank"

@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: "/greater-love-church",
+  assetPrefix: "/greater-love-church/",
   images: {
     unoptimized: true,
     remotePatterns: [
