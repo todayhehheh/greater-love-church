@@ -1,4 +1,4 @@
-:HL["/greater-love-church/_next/static/chunks/1e555a59e670b611.css","style"]
+:HL["/greater-love-church/_next/static/chunks/be27bd89f3cd22f2.css","style"]
 :HL["/greater-love-church/_next/static/media/038187927b76e879-s.p.49c985a8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/greater-love-church/_next/static/media/03abb6b3c682a0ef-s.p.a4014481.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/greater-love-church/_next/static/media/04ca3211689ae0a8-s.p.38715cc7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -94,4 +94,4 @@
 :HL["/greater-love-church/_next/static/media/f80e775f949431f5-s.p.d66a9493.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/greater-love-church/_next/static/media/fe38c2966e5f4639-s.p.2fec274b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css","style"]
-0:{"buildId":"2nCPwxBU6QGcCzdo19m9j","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"-k78wxsZlNH3YFFjtgPFA","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
