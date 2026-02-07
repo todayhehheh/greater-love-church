@@ -1,0 +1,54 @@
+/* Import fonts moved to layout.tsx */
+@import "tailwindcss";
+
+:root {
+  /* Warm Storytelling Palette */
+  --bg-ivory: #FDFBF7;
+  --text-espresso: #3A3430;
+  --accent-orange: #D97706;
+  --accent-soft: #F59E0B;
+}
+
+@theme inline {
+  --color-background: var(--bg-ivory);
+  --color-foreground: var(--text-espresso);
+  --color-accent: var(--accent-orange);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-gowun: var(--font-gowun-batang), serif;
+  --font-pretendard: "Pretendard", sans-serif;
+
+  --shadow-card: 0 10px 30px -10px rgba(58, 52, 48, 0.1);
+  --shadow-hover: 0 20px 40px -10px rgba(217, 119, 6, 0.2);
+}
+
+body {
+  background-color: var(--bg-ivory);
+  color: var(--text-espresso);
+  font-family: var(--font-pretendard);
+  /* Default to clear font */
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--accent-orange);
+  color: #fff;
+}
+
+/* Card Flip Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
