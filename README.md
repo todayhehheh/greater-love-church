@@ -15,7 +15,7 @@ Next.js와 TypeScript, Tailwind CSS로 제작되었습니다.
 **[크신사랑교회 홈페이지 바로가기](https://todayhehheh.github.io/greater-love-church/)**
 
 ## 🛠️ 기술 스택
-- **Framework**: Next.js 15
+- **Framework**: Next.js 16 (React 19)
 - **Styling**: Tailwind CSS, Pretendard Font
 - **Animation**: Framer Motion
 - **Deployment**: GitHub Pages
