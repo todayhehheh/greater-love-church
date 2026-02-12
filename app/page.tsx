@@ -60,7 +60,7 @@ export default function Home() {
               transition={{ duration: 1 }}
             >
               <h1 className="font-gowun text-6xl md:text-9xl font-bold text-[#3A3430] mb-4">
-                크신 사랑
+                크신사랑교회
               </h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -157,7 +157,7 @@ export default function Home() {
             <FlipCard
               title="LOVE"
               subtitle="사랑"
-              content="하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니 (요일 4:16) - 우리는 서로 사랑함으로 제자가 됩니다."
+              content="하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니 (요일 4:16) - 우리는 주의 사랑받는 자녀입니다."
             />
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Home() {
             <div>
               <h2 className="font-gowun text-3xl md:text-4xl font-bold mb-6">
                 이번 주 일요일,<br />
-                <span className="text-[#D97706]">따뜻한 차 한 잔</span> 어때요?
+                <span className="text-[#D97706]">편안한 마음으로</span> 방문해보세요.
               </h2>
               <p className="text-gray-500 mb-10">
                 부담 없이 편하게 오셔서 쉼을 얻어가세요.
@@ -189,7 +189,6 @@ export default function Home() {
                   <div>
                     <p className="font-bold">When</p>
                     <p className="text-gray-600">매주 일요일 오후 3시</p>
-                    <p className="text-xs text-[#D97706]">늦잠 자고 와도 괜찮아요!</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 group">
@@ -228,7 +227,7 @@ export default function Home() {
                 />
               </div>
               <a
-                href="https://map.naver.com/p/search/크신사랑교회"
+                href="https://map.naver.com/p/search/서울%20노원구%20동일로173가길%2069"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full block py-4 bg-[#03C75A] text-white text-center font-bold rounded-xl hover:bg-[#02B150] transition-colors shadow-sm mb-3"
@@ -236,7 +235,7 @@ export default function Home() {
                 네이버 지도로 보기 📍
               </a>
               <a
-                href="https://www.google.com/maps/search/?api=1&query=크신사랑교회"
+                href="https://www.google.com/maps/search/?api=1&query=서울%20노원구%20동일로173가길%2069"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full block py-4 bg-[#4285F4] text-white text-center font-bold rounded-xl hover:bg-[#3367D6] transition-colors shadow-sm"
@@ -251,7 +250,7 @@ export default function Home() {
       <footer className="py-12 text-center text-gray-400 text-sm bg-[#3A3430]">
         &copy; 2026 GREATER LOVE CHURCH. All Rights Reserved.
       </footer>
-    </main>
+    </main >
   );
 }
 
